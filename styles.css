@@ -1,0 +1,15 @@
+/* Existing styles */
+.admin-panel {
+    background-color: #f1f1f1;
+    padding: 2em 0;
+    margin-top: 2em;
+}
+
+.admin-panel h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.admin-panel input[type="file"] {
+    margin-bottom: 1em;
+}
