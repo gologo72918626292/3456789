@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptOvocado - RetroDrop Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="CryptOvocado Logo" class="logo">
+            <h1>CryptOvocado</h1>
+            <h2>Master RetroDrops in 3 Months</h2>
+            <button onclick="toggleAdminPanel()">Admin Login</button>
+        </div>
+    </header>
+    <!-- Existing sections -->
+    <section class="admin-panel" id="adminPanel" style="display: none;">
+        <div class="container">
+            <h3>Admin Panel</h3>
+            <input type="file" id="imageUpload">
+            <button onclick="uploadImage()">Upload Image</button>
+            <div id="uploadStatus"></div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <script src="script.js"></script>
+</body>
+</html>
